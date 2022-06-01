@@ -1,0 +1,38 @@
+*{
+	margin: 1;
+	padding: 1;
+	box-sizing: border-box; /*adapta el tamaño de la caja al necesario*/
+}
+body{
+	color: #f8f5f5;
+	font-family: Calibri; /*para definir la fuente*/
+	background-image: url("fondo.jpg"); /*para traer una imagen al fondo del body*/
+	background-attachment: fixed; /*la imagen de fondo se corre*/
+	background-size: auto; /*se ajusta la imagen al tamaño predeterminado*/
+}
+main{
+	color: #f5f1f1; /*cambia el color del texto*/
+	width: 70%;
+	font-size: 20px;
+	padding: 10px ; /*da margen dentro de las cajas*/
+    background-size: auto; 
+	float: left;
+}
+header{ /*se aplican los mismos estilos para ambas etiquetas*/
+	background-color: #312b2b;
+	color : #ffffff;
+}
+nav a{ /*para todas las etiquetas dentro de la barra de navegación*/
+	color:  #ffffff;
+    text-decoration: none; /*saco el subrayado o cualquier decoracion con el none*/
+    font-size: 20px; /*para el tamaño de la letra*/
+    font-weight: bold; /*para negrita o diseño de fuente*/
+}
+a{
+	color: #070707;
+}
+aside{
+	color: #f5f1f1;/*cambia el color del texto*/
+	width: 30%;
+	float: right;
+}
